@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'circuses#index'
   resources :circuses
   resources :entertainers
   # The priority is based upon order of creation: first created -> highest priority.
